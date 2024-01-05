@@ -28,5 +28,6 @@ void main(){
   final a;
   a=10;
   print(a);
+  print("love is power");
 
 }
