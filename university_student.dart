@@ -2,7 +2,7 @@ import 'student.dart';
 class UniversityStudent extends Student{
   late String uniName;
   late String dept;
-  UniversityStudent(String uniName,String dept,String name,int age,double ){
+  UniversityStudent(String uniName,String dept,String name,int age,double ) : super('', 0, 0.0){
     this.uniName=uniName;
     this.dept=dept;
     super.age=age;
